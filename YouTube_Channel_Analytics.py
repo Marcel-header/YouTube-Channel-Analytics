@@ -4,7 +4,7 @@ import seaborn as sns
 
 
 file_path = r"C:\Users\basum\OneDrive\Documents\Downloads\Downloads\youtube\Global YouTube Statistics.csv"
-df = pd.read_csv(file_path, encoding="latin1")  # Alternative: encoding="ISO-8859-1"
+df = pd.read_csv(file_path, encoding="latin1")
 
 
 print(df.info())
